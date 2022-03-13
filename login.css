@@ -1,0 +1,121 @@
+body{
+    background-color: #beb8b8;
+padding: 20px;}
+
+form{
+    width: 30%;
+    height: 500px;
+    background-color: rgb(209, 209, 209);
+    border-width: 8px;
+    border-style: none;
+    box-shadow: 10px 10px 2px rgba(232, 232, 232),
+                -10px -10px 2px rgb(233, 232, 232),
+                -10px 10px 2px rgb(233, 232, 232) ,
+                10px -10px 2px rgb(233, 232, 232);
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 45px;
+    position: relative;
+}
+input[placeholder="Email"],
+input[placeholder="Password"]{
+    position: relative;
+    height: 30px;
+    padding:15px 36;
+    width: 90%;
+    margin: auto;
+    box-shadow: -2px -2px 2px 2px rgb(209, 209, 209);
+    border-radius: 15px;
+    border-color:rgb(233, 232, 232) ;
+    background-color: rgb(219, 217, 217);
+}
+input[value="Login"],
+input[value="create acount"]
+{
+    letter-spacing: 1px;
+    padding:10px;
+    width: 90%;
+    color: gray;
+    cursor: pointer;
+    box-shadow: 6px 8px 18px;
+    margin: auto;
+    border-radius: 15px;
+    border-color:rgb(233, 232, 232) ;
+    background-color: rgb(219, 217, 217);
+}
+.circ{
+    box-shadow: 0px -10px 2px rgb(232 232 232), 4px -8px 2px rgb(232 232 232), -5px -6px 2px rgb(232 232 232);
+    line-height: 40px;
+    top: -20;
+    left: 43%;
+    position: absolute;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    border-style: groove;
+    border: 2px ;
+    border-radius: 50%;
+}
+a{
+    color: blue;
+    text-decoration: none;
+    display: block;
+    margin: 0vw;
+    /* background: #beb8b8; */
+}
+.email i{
+    position: absolute;
+    z-index: 4;
+    top: 54px;
+    left: 28px;
+    color: GRAY;
+}
+.password i{
+    position: absolute;
+    z-index: 4;
+    top: 124px;
+    left: 28px;
+    color: GRAY;
+}
+.or{
+    margin: 60px 0;
+    text-align: center;
+    position: relative;
+}
+.or:before{
+    content: "";
+    border-bottom: 1px solid black;
+    width: 90px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+.or::after{
+    content: "";
+    border-bottom: 1px solid black;
+    width: 90px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    right: 10%;
+}
+form .sociaux{
+    text-align: center;
+}
+form .sociaux i{
+    cursor: pointer;
+    border-radius: 40px;
+    color: cadetblue;
+    margin-left: 10px;
+    width: 50px;
+    font-size: 40px;
+}
+form .sociaux i:hover{
+    transform: rotate(360DEG);
+    transition: 2s;
+}
+form .circ{
+    box-shadow: 2px rgb(209 209 209);
+    background-color: rgb(209 209 209); 
+}
